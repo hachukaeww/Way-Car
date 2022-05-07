@@ -1,0 +1,45 @@
+@import 'blocks/vars';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: $bl;
+}
+a{
+    text-decoration: none;
+    color: $bl;
+}
+.title{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0em;
+
+}
+.card{
+    margin-top: 36px;
+}
+.inner{
+    display: flex;
+}
+.item{
+    height: 140px;
+    width: 372px;
+    border-radius: 6px;
+    background-color: #C0C0C0;
+    
+}
+@import 'blocks/container';
+@import 'blocks/header';
+@import 'blocks/intro';
+@import 'blocks/action';
+@import 'blocks/tarif';
+@import 'blocks/car';
+
+

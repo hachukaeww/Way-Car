@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0em;
+}
+
+.card {
+  margin-top: 36px;
+}
+
+.inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item {
+  height: 140px;
+  width: 372px;
+  border-radius: 6px;
+  background-color: #C0C0C0;
+}
+
+.container {
+  max-width: 1190px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 44px;
+  padding-top: 40px;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.header__menu,
+.header__phone {
+  padding-top: 20px;
+}
+
+.header__menu {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.header__link {
+  margin-right: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.header__phone a {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: black;
+}
+
+.intro {
+  margin-top: 170px;
+  position: relative;
+}
+
+.intro__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.intro__text {
+  padding-right: 10px;
+}
+
+.intro__title {
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 56px;
+  margin-bottom: 36px;
+  max-width: 513px;
+}
+
+.intro-btn {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  background-color: #C5C5C5;
+  border-radius: 4px;
+  padding: 20px 36px;
+}
+
+.intro__img {
+  position: absolute;
+  right: 460px;
+  top: -3px;
+}
+
+.action {
+  margin-top: 150px;
+}
+
+.card {
+  margin-top: 36px;
+}
+
+.inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.item {
+  height: 140px;
+  width: 372px;
+  border-radius: 6px;
+  background-color: #C0C0C0;
+}
+
+.all {
+  display: inline-block;
+  margin-top: 10px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.all::after {
+  content: ">";
+  padding-left: 5px;
+}
+
+.tarif {
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+.tarif--item {
+  background-color: #F5F6FA;
+  height: 220px;
+  width: 372px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.item__content {
+  margin-left: 30px;
+  margin-top: 28px;
+}
+
+.item__text {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 10px;
+}
+
+.item__title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  max-width: 300px;
+}
+
+.icon-1 {
+  position: absolute;
+  left: 177px;
+  top: 49px;
+}
+
+.icon-2 {
+  position: absolute;
+  left: 163px;
+  top: 50px;
+}
+
+.icon-3 {
+  position: absolute;
+  left: 149px;
+  top: 32px;
+}
+
+.car {
+  margin-top: 150px;
+}
+
+.car-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.car-item {
+  height: 230px;
+  width: 372px;
+  left: 120px;
+  top: 1759px;
+  margin-right: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.car-item:nth-child(3) {
+  margin-right: 0;
+}
+
+.car-item:nth-child(6) {
+  margin-right: 0;
+}
+
+.car__img {
+  display: block;
+  width: 290px;
+  height: 120px;
+  margin: 50px auto 0;
+}
+
+.car__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+a {
+  color: #666666;
+}
+
+.nav-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-tab {
+  margin-right: 10px;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.nav-tab.active {
+  cursor: default;
+}
+
+.tab-content {
+  font-size: 20px;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
