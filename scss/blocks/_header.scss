@@ -17,17 +17,35 @@
 .header__phone{
     padding-top: 20px;
 }
-.header__menu{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-}
 .header__link{
-    margin-right: 32px;
+    margin-right:32px;
+    font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
+    color: $bl;
+    &:after{
+        content: "";
+        height: 2px;
+        width: 0;
+        background-color: $bl;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        z-index: 1;
+        transition: width .2s linear;
+    }
+
+    &:hover{
+        &::after{
+            width: 100%;
+        }
+       
+        
+    }
+       
 }
+
 .header__phone a{
     font-family: 'Gilroy';
     font-style: normal;

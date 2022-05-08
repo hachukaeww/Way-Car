@@ -1,0 +1,40 @@
+.demand{
+    margin-top: 150px;
+}
+.demand__content{
+    padding: 60px 30px;
+    background-color: #CDCDCD;
+    border-radius: 6px;
+    display: flex;
+}
+.demand__text{
+    max-width: 388px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    margin-bottom: 28px;
+}
+.demand__img{
+    margin-left: 94px;
+}
+.demand__item{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.demand__link{
+    margin-bottom: 16px;
+}
+.demand__link::before{
+    display:inline-block;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 100%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}

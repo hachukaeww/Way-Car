@@ -1,6 +1,5 @@
 .intro{
     margin-top: 170px;
-    position: relative;
 }
 .intro__inner{
     display: flex;
@@ -28,7 +27,18 @@
     padding: 20px 36px;
 }
 .intro__img{
+    position: relative;
+}
+.intro__img img{
     position: absolute;
-    right: 460px;
+   
     top: -3px;
+}
+.intro-btn{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: $bl;
 }
