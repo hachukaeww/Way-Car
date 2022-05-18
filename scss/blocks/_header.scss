@@ -1,8 +1,10 @@
 .header{
+    width: 100%;
     min-height: 44px;
     padding-top: 40px;
 }
 .header__inner{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,3 +56,8 @@
     line-height: 27px;
     color: $bl;
 }
+.header_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }

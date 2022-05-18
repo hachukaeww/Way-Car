@@ -9,22 +9,43 @@
     justify-content: space-between;
 }
 .item{
-   
     height: 140px;
     width: 372px;
     border-radius: 6px;
-    background-color: #C0C0C0;
-    
+    background-color: #F5F6FA;;    
 }
-.all{
-    display: inline-block;
-    margin-top: 10px;
-    font-family: Inter;
+.action__title{ 
+    font-family: Montserrat;
+    margin-top: 20px;
+    margin-left: 30px;
     font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
+    font-weight: 700;
+    line-height: 26px;
 }
-.all::after{
-    content: ">";
-    padding-left: 5px;
+.action--item{
+    position: relative;
+    background: linear-gradient(101.69deg, #30A5CA -2.4%, #10A56F 97.82%)
 }
+.action-watch{
+    position: absolute;
+    right: 90px;
+    top: 48px;
+}
+.action-iph{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.action-car{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    border-radius: 6px;
+}
+.action-cubs{
+    position: absolute;
+    right:0;
+    top: 3px;
+}
+
+

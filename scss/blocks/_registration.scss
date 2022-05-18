@@ -1,0 +1,72 @@
+.registration{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    margin-top: 140px;
+    background: url(/img/iph-bg.png) no-repeat center  ;
+    
+}
+.registration__item{
+    margin-right: 10px;
+    margin-bottom: 50px;
+    max-width: 380px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.registration__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.qr-cod{
+    margin-top: 50px;
+    display: flex;
+}
+.center{
+    text-align: center;
+    margin-top: 24px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    color: rgba(0, 0, 0, 0.23);
+}
+.cod{
+    margin-right: 20px;
+}
+.qr-cod__text{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 197px;
+
+}
+.app-store{
+    color: #30A5CA;
+}
+.google-play{
+    color: #45BD79;
+
+}
+.item-3{
+    padding-left: 30px;
+    padding-top: 30px;
+    
+}
+.item-4{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.promokod{
+    text-transform: uppercase;
+    color: #45BD79;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+}

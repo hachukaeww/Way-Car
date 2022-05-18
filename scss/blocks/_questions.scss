@@ -1,0 +1,18 @@
+.questions{
+    padding-top: 140px;
+}
+.questions__link{ 
+    margin-top: 24px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: $bl;
+}
+.questions__link::before{
+    content: ">";
+    color: #b3aeae;
+    margin-right: 5px;
+}
+

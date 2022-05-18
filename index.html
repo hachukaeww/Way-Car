@@ -11,17 +11,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <title>Document</title>
+   <link rel="stylesheet" href="cion/style.css">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
+   
+
+    
     <header class="header">
         <div class="container">
             <div class="header__inner">
                 <div class="header__logo">
-                    Way car
+                    <span class="green">Way</span> car
                 </div>
                 <div class="header__menu">
-                    <a href="" class="header__link">  Акции</a>
+                    <a href="#el"  class="header__link">  Акции</a>
                     <a href="" class="header__link">Тарифы</a>
                     <a href="" class="header__link">Машины</a>
                     <a href="" class="header__link">Контакты</a>
@@ -45,18 +50,31 @@
             </div>
         </div>
     </div>
-    <section class="action">
+    <section id="el" class="action">
         <div class="container">
             <h2 class="title">
                 Акции
             </h2>
             <div class="card">
                 <div class="inner">
-                    <div class="item">
-
+                    <div class="item action--item">
+                        <h3 class="action__title">Едем <br>
+                            за призами!</h3>
+                            <img class="action-watch" src="img/action-applew.png" alt="">
+                            <img class="action-iph" src="img/action-iph.png" alt="">
+                            
                     </div>
-                    <div class="item"></div>
-                    <div class="item"></div>
+                    <div class="item action--item ">
+                        <h3 class="action__title">Катайтесь <br>
+                            и получайте <br> кешбек до 15%</h3>
+                            <img class="action-car" src="img/action-car.png" alt="">
+                           
+                    </div>
+                    <div class="item action--item">
+                        <h3 class="action__title">-80% <br>
+                            на первую <br> поездку</h3>
+                            <img class="action-cubs" src="img/acton-cubs.png" alt="">
+                    </div>
                 </div>
             </div>
             <span class="all">Все акции</span>
@@ -154,40 +172,143 @@
                     <div class="card">
                         <div class=" car-inner">
                             <div class="item car-item">
+                                <img  class="car__img" src="img/car/gelik.png" alt="">
+                                <div class="car__info">
+                                    <div class="marka">Mercedes-Benz AMG G</div>
+                                    <div class="price">от 17,2 ₽/мин  </div>
+                                    </div>
                             </div>
-                            <div class="item car-item "></div>
-                            <div class="item car-item "></div>
-                            <div class="item car-item "></div>
+                            <div class="item car-item">
+                                <img  class="car__img" src="img/car/BMW3.png" alt="">
+                                <div class="car__info">
+                                    <div class="marka">BMW M4 Competition</div>
+                                    <div class="price">от 17,2 ₽/мин  </div>
+                                    </div>
+                            </div>
+                            <div class="item car-item">
+                                <img  class="car__img" src="img/car/LAMBORG.png" alt="">
+                                <div class="car__info">
+                                    <div class="marka">Lamborghini Urus</div>
+                                    <div class="price">от 17,3 ₽/мин  </div>
+                                    </div>
+                            </div>
+                            <div class="item car-item">
+                                <img  class="car__img" src="img/car/AUDI.png" alt="">
+                                <div class="car__info">
+                                    <div class="marka">Audi R8</div>
+                                    <div class="price">от  18,9 ₽/мин  </div>
+                                    </div>
+                            </div>
+                            <div class="item car-item">
+                                <img  class="car__img" src="img/car/BMW4.png" alt="">
+                                <div class="car__info">
+                                    <div class="marka">BMW M8</div>
+                                    <div class="price">от 16,6 ₽/мин </div>
+                                    </div>
+                            </div>
+                            <div class="item car-item">
+                                <img  class="car__img" src="img/car/porshe2.png" alt="">
+                                <div class="car__info">
+                                    <div class="marka">Porsche 911 Carrera 4S</div>
+                                    <div class="price">от 15,9 ₽/мин </div>
+                                    </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div data-tab-content="3" class="tab-pane">
                     <div class="card">
                         <div class=" car-inner">
-                            <div class="item car-item">
-                            </div>
+                            <div class="item car-item "> <img  class="car__img" src="img/car/toyta6.png" alt="">
+                                <div class="car__info">
+                                    <div class="marka">Toyota Camry</div>
+                                    <div class="price">от 14,9 ₽/мин </div>
+                                    </div></div>
+                                    <div class="item car-item "> <img  class="car__img" src="img/car/jeep.png" alt="">
+                                        <div class="car__info">
+                                            <div class="marka">Lexus LX </div>
+                                            <div class="price">от 13,3 ₽/мин </div>
+                                            </div></div>
+                                            <div class="item car-item "> <img  class="car__img" src="img/car/jeep2.png" alt="">
+                                                <div class="car__info">
+                                                    <div class="marka">Toyota Land Cruiser 200 </div>
+                                                    <div class="price">от 13,3 ₽/мин </div>
+                                                    </div></div>
+                                                    <div class="item car-item "> <img  class="car__img" src="img/car/mers2.png" alt="">
+                                                        <div class="car__info">
+                                                            <div class="marka">Mersedes-AMG S </div>
+                                                            <div class="price">от  14,5 ₽/мин </div>
+                                                            </div></div>
+                                                            <div class="item car-item">
+                                                                <img  class="car__img" src="img/car/mers1.png" alt="">
+                                                                <div class="car__info">
+                                                                    <div class="marka">Mersedes-Benz E</div>
+                                                                    <div class="price">от 14,9 ₽/мин </div>
+                                                                    </div>
+                                                            </div>
+                                                            <div class="item car-item "> <img  class="car__img" src="img/car/audi3.png" alt="">
+                                                                <div class="car__info">
+                                                                    <div class="marka">Audi A6</div>
+                                                                    <div class="price">от 13,6 ₽/мин </div>
+                                                                    </div></div>
                         </div>
                     </div>
                 </div>
                 <div data-tab-content="4" class="tab-pane">
                     <div class="card">
                         <div class=" car-inner">
-                            <div class="item car-item">
-                            </div>
-                            <div class="item car-item">
-                            </div>
-                            <div class="item car-item">
-                            </div>
+                            <div class="item car-item "> <img  class="car__img" src="img/car/solaris.png" alt="">
+                                <div class="car__info">
+                                    <div class="marka">Hyundai Solaris II</div>
+                                    <div class="price">от  7,5 ₽/мин  </div>
+                                    </div></div>
+                                    <div class="item car-item "> <img  class="car__img" src="img/car/solaris.png" alt="">
+                                        <div class="car__info">
+                                            <div class="marka">Hyundai Solaris II</div>
+                                            <div class="price">от  7,5 ₽/мин  </div>
+                                            </div></div>
+                                            <div class="item car-item "> <img  class="car__img" src="img/car/ford.png" alt="">
+                                                <div class="car__info">
+                                                    <div class="marka">Ford Focus 3</div>
+                                                    <div class="price">от 7,8 ₽/мин</div>
+                                                    </div></div>
+                                                    <div class="item car-item "> <img  class="car__img" src="img/car/toyota1.png" alt="">
+                                                        <div class="car__info">
+                                                            <div class="marka">Toyota Corolla</div>
+                                                            <div class="price">от 5,8 ₽/мин </div>
+                                                            </div></div>
+                                                            <div class="item car-item "> <img  class="car__img" src="img/car/volksw.png" alt="">
+                                                                <div class="car__info">
+                                                                    <div class="marka">Volkswagen Polo</div>
+                                                                    <div class="price">от 6,6 ₽/мин</div>
+                                                                    </div></div>
+                           
                         </div>
                     </div>
                 </div>
                 <div data-tab-content="5" class="tab-pane">
                     <div class="card">
                         <div class=" car-inner">
-                            <div class="item car-item">
-                            </div>
-                            <div class="item car-item">
-                            </div>
+                            <div class="item car-item "> <img  class="car__img" src="img/car/tesla1.png" alt="">
+                                <div class="car__info">
+                                    <div class="marka">Tesla Model S</div>
+                                    <div class="price">от 17,3 ₽/мин </div>
+                                    </div></div>
+                                    <div class="item car-item "> <img  class="car__img" src="img/car/tesla2.png" alt="">
+                                        <div class="car__info">
+                                            <div class="marka">Tesla Model 3</div>
+                                            <div class="price">от 15,6 ₽/мин  </div>
+                                            </div></div>
+                                            <div class="item car-item "> <img  class="car__img" src="img/car/tesla3.png" alt="">
+                                                <div class="car__info">
+                                                    <div class="marka">Tesla Model X</div>
+                                                    <div class="price">от 16,7 ₽/мин</div>
+                                                    </div></div>
+                                                    <div class="item car-item "> <img  class="car__img" src="img/car/image 69.png" alt="">
+                                                        <div class="car__info">
+                                                            <div class="marka">BMW i3</div>
+                                                            <div class="price">от  8,7 ₽/мин </div>
+                                                            </div></div>
                         </div>
                     </div>
               </div>
@@ -216,7 +337,109 @@
         </div>
             
     </div>
+    <section class="registration">
+        <div class="container">
+             <div class="registration__inner">
+                 <div class="registration__item"><div>Скачайте мобильное приложение Ситидрайв <br>
+                      в <span class="app-store">App Store</span>  или  <span class="google-play">Google Play</span> </div> 
+                 <div class="qr-cod">
+                     <div class="cod"> <img src="img/qr-cod.png" alt=""></div>
+                     <div class="qr-cod__text">Наведите камеру смартфона на QR-код, чтобы cкачать приложение.</div>
+                     
+                 </div>
+                   </div>
+                  <div class="registration__item item-3">Введите промокод <span class="promokod">HASU</span> при регистрации или в разделе «Промокоды» после неё — будет скидка 80% на первую аренду</div>
+                 <div class="registration__item">Зарегистрируйтесь 
+                    с водительским удостоверением, паспортом и банковской картой</div>
+                     <div class="registration__item item-4">Найдите ближайший <br> автомобиль в приложении 
+                    и вперёд!</div> 
+                </div>
+        </div>
+       
+        
+    </section>
+    <section class="questions">
+        <div class="container">
+            <h2 class="title">
+                Частые вопросы
+            </h2>
+            <div class="questions__item">
+                <div class="questions__link">
+               Что такое Way car и вообще каршеринг?</div>
+                <div class="questions__link"> Кому можно пользоваться Way car</div>
+                <div class="questions__link" >Как зарегистрироваться в Way car</div>
+                <div class="questions__link" >На сколько можно взять машину?</div>
+                <div class="questions__link" >Как работает страховка в Way car?</div>
+                <div class="questions__link" >Как взять машину в первый раз?</div>
+                <div class="questions__link" >Как далеко можно уехать?</div>
+                 <div class="questions__link" >Что такое зелёная зона?</div> 
+                <div class="questions__link" >Что такое зелёная зона?</div>
+                  <div class="questions__link" >Сколько стоит аренда машины? Какие  есть тарифы?</div> 
+                  <div class="questions__link">Как получить скидку на первую поездку или использовать другой промокод?</div>
+            </div>
+            
+        </div>
+    </section>
+    <div class="app">
+        <div class="container">
+            <div class="app__inner">
+                <div class="app__item">
+            <img class="img__left" src="img/iphone-left.png"></img>
+            <img class="img__right" src="img/iphone-right.png"></img>
+            </div>
+            <div class="app__item">
+                <div class="app__text">
+                    Скачайте приложение Way car, введите промокод <span class="promokod app-promo">HASU</span>, <br>
+и поехали!
+                </div>
+                <div class="btm__text">Оставьте свой номер телефона — отправим ссылку на скачивание приложения или сканируйте QR-код</div>
+               <div class="application">
+                   <div class="tel"><input class="app__tel" name="tel" placeholder="+7">
+                <a href="" class="application__link">Получить ссылку</a>
+                <div class="tel__text">Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности. Защита от спама reCAPTCHA. <span class="green">Конфиденциальность</span>  и <span class="green">условия использования</span>.</div>
+                
+                </div>
+                   <div class="cod"> <img src="img/qr-cod.png" alt=""></div>
+                   
+               </div> 
+            </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__icons">
+                    <img  class="icon__link"src="img/inst.svg" alt="">
+                    <img class="icon__link"src="img/tel.svg" alt="">
+                    <img class="icon__link"src="img/what.svg" alt="">
+                </div>
+                <div class="header__logo">
+                   <span class="green">Way</span> car
+                </div>
+                <div class="footer__info">
+                    <div class="info__tel">
+                        +7 123 456 78 90
+                    </div>
+                    <div class="info__mail">way.car@mail.ru</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__btm">
+        <div class="container">
+            <div class="footer__inner">
+                 <div class="footer__left">© 2022 Way car</div>
+            <div class="footer__right">г.Грозный</div>
 
-    <script src="js.js"></script>
+            </div>
+            
+           
+            
+        </div>
+    </div>
+    <script src="tabs.js"></script>
+    <script src="sckroll.js"></script>
 </body>
 </html>

@@ -1,8 +1,22 @@
 .intro{
-    margin-top: 170px;
+    margin-top: 50px;
+    padding-top: 200px;
+     background: url(/img/bg.png) no-repeat top center;
+     
+}
+.intro__img{
+    position: relative;
+    z-index: 111;
+}
+.bg{
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    z-index: 0;
 }
 .intro__inner{
     display: flex;
+   
 }
 .intro__text{
     padding-right: 10px;
@@ -14,7 +28,7 @@
     font-weight: 800;
     line-height: 56px;
     margin-bottom: 36px;
-    max-width: 513px;
+    max-width: 513px;  
 }
 .intro-btn{
     font-family: Inter;
@@ -22,23 +36,9 @@
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0em;
-    background-color: #C5C5C5;
+    background-color: #39C37C;
     border-radius: 4px;
     padding: 20px 36px;
+    color: white;
 }
-.intro__img{
-    position: relative;
-}
-.intro__img img{
-    position: absolute;
-   
-    top: -3px;
-}
-.intro-btn{
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0em;
-    color: $bl;
-}
+

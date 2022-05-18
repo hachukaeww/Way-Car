@@ -35,6 +35,27 @@ a{
     background-color: #C0C0C0;
     
 }
+.all{
+    display: inline-block;
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    &::after{
+        content: ">";
+        width: 24px;
+        height: 24px;
+        background-color: #30A5CA;
+        margin-left: 5px;
+        border-radius: 100%;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-bottom: 6px;
+        padding-top: 3px;
+        color: white;
+    }
+}
 @import 'blocks/container';
 @import 'blocks/header';
 @import 'blocks/intro';
@@ -42,5 +63,9 @@ a{
 @import 'blocks/tarif';
 @import 'blocks/car';
 @import 'blocks/demand';
+@import 'blocks/registration';
+@import 'blocks/questions';
+@import 'blocks/app';
+@import 'blocks/footer';
 
 
