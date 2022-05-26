@@ -147,7 +147,7 @@ a {
 .intro {
   margin-top: 50px;
   padding-top: 200px;
-  background: url(/img/bg.png) no-repeat top center;
+  background: url(../img/bg.png) no-repeat top center;
 }
 
 .intro__img {
