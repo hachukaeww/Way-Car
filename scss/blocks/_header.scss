@@ -1,9 +1,11 @@
 .header{
     width: 100%;
     min-height: 44px;
-    padding-top: 40px;
+    z-index: 1111;
+   
 }
-.header__inner{
+.header__inner{ 
+    padding-top: 40px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -17,30 +19,32 @@
 }
 .header__menu,
 .header__phone{
-    padding-top: 20px;
+
 }
 .header__link{
     margin-right:32px;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 22px;
-    color: $bl;
+    line-height: 24px;
+    color: black;
+    position: relative;
     &:after{
         content: "";
         height: 2px;
         width: 0;
-        background-color: $bl;
+        background-color: #1CA25D;
         position: absolute;
         bottom: -5px;
         left: 0;
         z-index: 1;
-        transition: width .2s linear;
+        transition:.2s linear;
     }
 
     &:hover{
         &::after{
             width: 100%;
+           
         }
        
         
@@ -49,10 +53,9 @@
 }
 
 .header__phone a{
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 500;
+    font-family: Inter;
     font-size: 22px;
+    font-weight: 500;
     line-height: 27px;
     color: $bl;
 }

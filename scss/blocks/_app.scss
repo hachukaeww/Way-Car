@@ -71,7 +71,11 @@
     font-weight: 700;
     line-height: 23px;
     color: #FFFFFF;
+    &:hover{
+        background-color:  #1d6840;
+    }
 }
+
 .tel__text{
     margin-top: 24px;
     font-family: Inter;

@@ -33,6 +33,9 @@ a{
     width: 372px;
     border-radius: 6px;
     background-color: #C0C0C0;
+    &:hover{
+        box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    } 
     
 }
 .all{

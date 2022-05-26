@@ -42,6 +42,11 @@ a {
   background-color: #C0C0C0;
 }
 
+.item:hover {
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
 .all {
   display: inline-block;
   margin-top: 10px;
@@ -75,10 +80,11 @@ a {
 .header {
   width: 100%;
   min-height: 44px;
-  padding-top: 40px;
+  z-index: 1111;
 }
 
 .header__inner {
+  padding-top: 40px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,31 +104,27 @@ a {
   line-height: 44px;
 }
 
-.header__menu,
-.header__phone {
-  padding-top: 20px;
-}
-
 .header__link {
   margin-right: 32px;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 24px;
   color: black;
+  position: relative;
 }
 
 .header__link:after {
   content: "";
   height: 2px;
   width: 0;
-  background-color: black;
+  background-color: #1CA25D;
   position: absolute;
   bottom: -5px;
   left: 0;
   z-index: 1;
-  -webkit-transition: width .2s linear;
-  transition: width .2s linear;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
 }
 
 .header__link:hover::after {
@@ -130,10 +132,9 @@ a {
 }
 
 .header__phone a {
-  font-family: 'Gilroy';
-  font-style: normal;
-  font-weight: 500;
+  font-family: Inter;
   font-size: 22px;
+  font-weight: 500;
   line-height: 27px;
   color: black;
 }
@@ -193,6 +194,10 @@ a {
   color: white;
 }
 
+.intro-btn:hover {
+  background-color: #1d6840;
+}
+
 .action {
   margin-top: 150px;
 }
@@ -229,6 +234,18 @@ a {
 .action--item {
   position: relative;
   background: linear-gradient(101.69deg, #30A5CA -2.4%, #10A56F 97.82%);
+}
+
+.first {
+  background: linear-gradient(101.69deg, #30A5CA -2.4%, #10A56F 97.82%);
+}
+
+.too {
+  background: linear-gradient(102.27deg, #10A56F -13.54%, #30A5CA 88.08%);
+}
+
+.third {
+  background: linear-gradient(103.23deg, #30A5CA 8.11%, #10A56F 106.89%);
 }
 
 .action-watch {
@@ -374,7 +391,7 @@ a {
 }
 
 .nav-tab {
-  margin-right: 10px;
+  margin-right: 36px;
   text-decoration: none;
   font-family: Inter;
   font-size: 20px;
@@ -644,6 +661,10 @@ a {
   font-weight: 700;
   line-height: 23px;
   color: #FFFFFF;
+}
+
+.application__link:hover {
+  background-color: #1d6840;
 }
 
 .tel__text {
