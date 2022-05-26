@@ -178,7 +178,7 @@ a {
   font-weight: 800;
   line-height: 56px;
   margin-bottom: 36px;
-  max-width: 513px;
+  max-width: 538px;
 }
 
 .intro-btn {
@@ -407,7 +407,7 @@ a {
 
 .demand__content {
   padding: 60px 30px;
-  background-color: #CDCDCD;
+  background-color: #F5F6FA;
   border-radius: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
